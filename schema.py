@@ -446,7 +446,7 @@ COLUMNS:
 - ID (bigint) (Primary Key) - Auto-increment identifier
 - TEN_ID (bigint) - Tenant ID
 - EMP_ID (bigint) - Employee ID (Foreign Key)
-- PAY_PERIOD (varchar) - Pay period identifier
+- PAY_PERIOD (varchar) - Pay period identifier (e.g., 'Apr-2023', 'Sep-2025')
 - STAT_YEAR (int) - Statistical year
 - TOT_EARNINGS (float) - Total earnings
 - TOT_DEDUCTS (float) - Total deductions

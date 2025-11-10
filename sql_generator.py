@@ -33,6 +33,9 @@ Rules:
 - Only return the SQL statement.
 - If the question doesn’t require filtering, still ensure TEN_ID = {tenant_id} is used.
 - Provide the query in one line.
+- Make note of the ID columns in each table for joins. For eg, the Employee ID column in ESS_EMPLOYEES table is just ID, and not
+EMP_ID. Likewise, Tenant ID column in ESS_TENANT table is ID, and not TEN_ID. Ensure correct column names are used for joins.
+
 SCHEMA:
 {SCHEMA_TEXT}
 
